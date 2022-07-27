@@ -1,14 +1,10 @@
-var count = 0
-var isMeasure = false
-var time = 0
-
 class Medematiques {
   getInfo() {
     return {
       color1: "#773c00",
       color2: "#5f3000",
-      id: "RixxyX",
-      name: "RixxyX",
+      id: "Médématiques",
+      name: "Médématiques",
       description: '[deleted]',
       blocks: [
         {
@@ -18,11 +14,11 @@ class Medematiques {
           arguments: {
             TEXT_1: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX'
+              defaultValue: 'Hello'
             },
             TEXT_2: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'TyruntX'
+              defaultValue: 'Bonjour'
             }
           }
         },
